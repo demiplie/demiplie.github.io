@@ -1,6 +1,5 @@
 ```markdown
 ---
-layout: page
 title: Demi Plié Confecções
 description: Elegância em cada detalhe, criação em cada ponto.
 ---
