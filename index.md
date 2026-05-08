@@ -1,191 +1,172 @@
+```markdown
 ---
 layout: default
 title: Demi Plié Confecções
+description: Elegância em cada detalhe, criação em cada ponto.
 ---
 
 <style>
-:root {
-  --pink-main: #e91e63;
-  --pink-soft: #f8bbd0;
-  --text-dark: #444;
-}
-
 body {
+  background-color: #fff7fa;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  color: var(--text-dark);
+  color: #444;
 }
 
-h1, h2, h3 {
-  color: var(--pink-main);
+h1, h2 {
+  color: #d63384;
+}
+
+.hero {
   text-align: center;
+  padding: 60px 20px 40px 20px;
 }
 
-.nav {
-  text-align: center;
-  margin: 20px 0;
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
 }
 
-.nav a {
-  margin: 0 15px;
-  text-decoration: none;
-  color: var(--pink-main);
-  font-weight: 500;
-}
-
-.nav a:hover {
-  text-decoration: underline;
+.hero p {
+  font-size: 1.2em;
+  color: #777;
 }
 
 .section {
   max-width: 900px;
-  margin: 60px auto;
+  margin: 0 auto 60px auto;
   padding: 0 20px;
   text-align: center;
 }
 
-.divider {
-  width: 60px;
-  height: 3px;
-  background: var(--pink-soft);
-  margin: 20px auto;
-  border-radius: 10px;
-}
-
-.portfolio-grid {
+.grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
   margin-top: 30px;
 }
 
-.portfolio-item img {
-  width: 100%;
+.card {
+  background: #ffffff;
   border-radius: 12px;
+  padding: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
-.portfolio-item p {
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card p {
   margin-top: 8px;
-  font-size: 14px;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.cta {
+  margin-top: 30px;
+}
+
+.cta a {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #e83e8c;
+  color: white;
+  border-radius: 25px;
+  font-weight: 500;
+}
+
+.cta a:hover {
+  opacity: 0.9;
 }
 
 .footer {
   text-align: center;
-  margin-top: 80px;
-  padding: 30px 20px;
-  background: #fafafa;
-  font-size: 14px;
+  padding: 40px 20px;
+  border-top: 1px solid #eee;
+  color: #888;
 }
 </style>
 
-# ✨ Demi Plié Confecções
+<div class="hero">
 
-<div class="section">
-<h3>Elegância em cada detalhe 👗</h3>
-<div class="divider"></div>
-<p>Confecção personalizada com qualidade, delicadeza e estilo.</p>
-</div>
+# 🌸 Demi Plié Confecções
 
-<div class="nav">
-  <a href="#inicio">Início</a>
-  <a href="#sobre">Sobre</a>
-  <a href="#portfolio">Portfólio</a>
-  <a href="#galeria">Galeria Completa</a>
+**Elegância em cada detalhe, criação em cada ponto ✨**
+
 </div>
 
 ---
 
-## <a id="inicio"></a>💖 Início
-
 <div class="section">
-<p>Bem-vindo à <strong>Demi Plié Confecções</strong>, onde criatividade e precisão se encontram para dar vida a peças únicas e sofisticadas.</p>
+
+## 🌷 Sobre a Empresa
+
+A **Demi Plié Confecções** é especializada na criação de roupas sob medida, unindo sofisticação, delicadeza e excelência em cada peça.
+
+Nosso trabalho valoriza a individualidade de cada cliente, com foco em **acabamento impecável**, **design exclusivo** e atenção minuciosa aos detalhes. Cada criação é pensada para refletir estilo, personalidade e elegância.
+
 </div>
 
 ---
 
-## <a id="sobre"></a>🌸 Sobre
-
 <div class="section">
-<div class="divider"></div>
-<p>
-A <strong>Demi Plié Confecções</strong> é especializada na criação de roupas sob medida, unindo técnica, sensibilidade e atenção aos mínimos detalhes.
-</p>
 
-<p>
-Nosso compromisso é entregar peças que valorizam cada cliente, com acabamento impecável, tecidos selecionados e design personalizado.
-</p>
+## 👗 Portfólio
 
-<p>
-Trabalhamos com paixão pela costura, garantindo qualidade, exclusividade e elegância em cada criação.
-</p>
-</div>
+<div class="grid">
 
----
-
-## <a id="portfolio"></a>👗 Portfólio
-
-<div class="section">
-<div class="divider"></div>
-
-<div class="portfolio-grid">
-
-<div class="portfolio-item">
-<img src="/images/look1.jpg" alt="Vestido elegante">
+<div class="card">
+<img src="/images/look1.jpg">
 <p>Vestido elegante sob medida</p>
 </div>
 
-<div class="portfolio-item">
-<img src="/images/look2.jpg" alt="Conjunto moderno">
-<p>Conjunto moderno e sofisticado</p>
+<div class="card">
+<img src="/images/look2.jpg">
+<p>Conjunto feminino moderno</p>
 </div>
 
-<div class="portfolio-item">
-<img src="/images/look3.jpg" alt="Moda casual feminina">
-<p>Moda casual feminina</p>
+<div class="card">
+<img src="/images/look3.jpg">
+<p>Peça exclusiva artesanal</p>
 </div>
 
-<div class="portfolio-item">
-<img src="/images/look4.jpg" alt="Peça personalizada">
-<p>Peça exclusiva personalizada</p>
+<div class="card">
+<img src="/images/look4.jpg">
+<p>Moda para ocasiões especiais</p>
 </div>
 
-<div class="portfolio-item">
-<img src="/images/look5.jpg" alt="Vestido de festa">
-<p>Vestido para ocasiões especiais</p>
+<div class="card">
+<img src="/images/look5.jpg">
+<p>Estilo leve e contemporâneo</p>
 </div>
 
-<div class="portfolio-item">
-<img src="/images/look6.jpg" alt="Look contemporâneo">
-<p>Look contemporâneo e delicado</p>
+<div class="card">
+<img src="/images/look6.jpg">
+<p>Design sofisticado</p>
 </div>
 
 </div>
+
+<div class="cta">
+
+<p>Veja mais criações e inspirações na nossa galeria completa:</p>
+
+👉 <a href="https://drive.google.com/" target="_blank">Ver galeria completa no Google Drive</a>
+
 </div>
-
----
-
-## <a id="galeria"></a>📸 Galeria Completa
-
-<div class="section">
-<div class="divider"></div>
-
-<p>
-Acesse nossa galeria completa para ver mais criações:
-</p>
-
-<p>
-👉 <a href="/galeria/">Ver Galeria Completa</a>
-</p>
-
-<p>
-Novas fotos podem ser adicionadas continuamente para acompanhar nossos trabalhos mais recentes.
-</p>
 
 </div>
 
 ---
 
 <div class="footer">
-<p><strong>Demi Plié Confecções</strong> 💖</p>
-<p>Instagram | WhatsApp | Contato</p>
-<p>© 2026 - Todos os direitos reservados</p>
+
+✨ **Demi Plié Confecções**  
+📷 Instagram: @demiplieconfeccoes  
+📱 WhatsApp: (00) 00000-0000  
+
+Criando com paixão, vestindo com elegância.
+
 </div>
+```
