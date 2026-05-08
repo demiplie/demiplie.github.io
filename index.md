@@ -1,10 +1,19 @@
 ---
+layout: null
 title: Demi Plié Confecções
-description: Elegância em cada detalhe, criação em cada ponto.
 ---
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Demi Plié Confecções</title>
 
 <style>
 body {
+  margin: 0;
   background-color: #fff7fa;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   color: #444;
@@ -12,27 +21,28 @@ body {
 
 h1, h2 {
   color: #d63384;
+  margin: 0;
 }
 
 .hero {
   text-align: center;
-  padding: 60px 20px 40px 20px;
+  padding: 80px 20px 50px 20px;
 }
 
 .hero h1 {
   font-size: 3em;
-  margin-bottom: 10px;
 }
 
 .hero p {
+  margin-top: 10px;
   font-size: 1.2em;
   color: #777;
 }
 
 .section {
   max-width: 900px;
-  margin: 0 auto 60px auto;
-  padding: 0 20px;
+  margin: 0 auto;
+  padding: 50px 20px;
   text-align: center;
 }
 
@@ -45,9 +55,14 @@ h1, h2 {
 
 .card {
   background: #ffffff;
-  border-radius: 12px;
+  border-radius: 14px;
   padding: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
 }
 
 .card img {
@@ -62,16 +77,18 @@ h1, h2 {
 }
 
 .cta {
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 .cta a {
   display: inline-block;
-  padding: 12px 20px;
+  padding: 14px 24px;
   background-color: #e83e8c;
   color: white;
-  border-radius: 25px;
+  border-radius: 30px;
   font-weight: 500;
+  text-decoration: none;
+  transition: opacity 0.2s;
 }
 
 .cta a:hover {
@@ -83,88 +100,88 @@ h1, h2 {
   padding: 40px 20px;
   border-top: 1px solid #eee;
   color: #888;
+  font-size: 0.9em;
 }
 </style>
+</head>
+
+<body>
 
 <div class="hero">
-
-# 🌸 Demi Plié Confecções
-
-**Elegância em cada detalhe, criação em cada ponto ✨**
-
+  <h1>🌸 Demi Plié Confecções</h1>
+  <p>Elegância em cada detalhe, criação em cada ponto ✨</p>
 </div>
 
----
+<hr style="border:none; border-top:1px solid #eee; max-width:800px;">
 
 <div class="section">
-
-## 🌷 Sobre a Empresa
-
-A **Demi Plié Confecções** é especializada na criação de roupas sob medida, unindo sofisticação, delicadeza e excelência em cada peça.
-
-Nosso trabalho valoriza a individualidade de cada cliente, com foco em **acabamento impecável**, **design exclusivo** e atenção minuciosa aos detalhes. Cada criação é pensada para refletir estilo, personalidade e elegância.
-
+  <h2>🌷 Sobre a Empresa</h2>
+  <p style="margin-top:20px; line-height:1.6;">
+    A <strong>Demi Plié Confecções</strong> é especializada na criação de roupas sob medida,
+    unindo sofisticação, delicadeza e excelência em cada peça.
+    <br><br>
+    Nosso trabalho valoriza a individualidade de cada cliente, com foco em
+    <strong>acabamento impecável</strong>, <strong>design exclusivo</strong> e atenção minuciosa aos detalhes.
+    Cada criação é pensada para refletir estilo, personalidade e elegância.
+  </p>
 </div>
 
----
+<hr style="border:none; border-top:1px solid #eee; max-width:800px;">
 
 <div class="section">
+  <h2>👗 Portfólio</h2>
 
-## 👗 Portfólio
+  <div class="grid">
 
-<div class="grid">
+    <div class="card">
+      <img src="/images/look1.jpg" alt="Vestido elegante">
+      <p>Vestido elegante sob medida</p>
+    </div>
 
-<div class="card">
-<img src="/images/look1.jpg">
-<p>Vestido elegante sob medida</p>
-</div>
+    <div class="card">
+      <img src="/images/look2.jpg" alt="Conjunto feminino">
+      <p>Conjunto feminino moderno</p>
+    </div>
 
-<div class="card">
-<img src="/images/look2.jpg">
-<p>Conjunto feminino moderno</p>
-</div>
+    <div class="card">
+      <img src="/images/look3.jpg" alt="Peça artesanal">
+      <p>Peça exclusiva artesanal</p>
+    </div>
 
-<div class="card">
-<img src="/images/look3.jpg">
-<p>Peça exclusiva artesanal</p>
-</div>
+    <div class="card">
+      <img src="/images/look4.jpg" alt="Moda festa">
+      <p>Moda para ocasiões especiais</p>
+    </div>
 
-<div class="card">
-<img src="/images/look4.jpg">
-<p>Moda para ocasiões especiais</p>
-</div>
+    <div class="card">
+      <img src="/images/look5.jpg" alt="Moda leve">
+      <p>Estilo leve e contemporâneo</p>
+    </div>
 
-<div class="card">
-<img src="/images/look5.jpg">
-<p>Estilo leve e contemporâneo</p>
-</div>
+    <div class="card">
+      <img src="/images/look6.jpg" alt="Design sofisticado">
+      <p>Design sofisticado</p>
+    </div>
 
-<div class="card">
-<img src="/images/look6.jpg">
-<p>Design sofisticado</p>
-</div>
+  </div>
 
-</div>
-
-<div class="cta">
-
-<p>Veja mais criações e inspirações na nossa galeria completa:</p>
-
-👉 <a href="https://drive.google.com/" target="_blank">Ver galeria completa no Google Drive</a>
-
-</div>
+  <div class="cta">
+    <p>Veja mais criações e inspirações na nossa galeria completa:</p>
+    <a href="https://drive.google.com/" target="_blank">
+      Ver galeria completa no Google Drive
+    </a>
+  </div>
 
 </div>
 
----
+<hr style="border:none; border-top:1px solid #eee; max-width:800px;">
 
 <div class="footer">
-
-✨ **Demi Plié Confecções**  
-📷 Instagram: @demiplieconfeccoes  
-📱 WhatsApp: (00) 00000-0000  
-
-Criando com paixão, vestindo com elegância.
-
+  ✨ <strong>Demi Plié Confecções</strong><br>
+  📷 Instagram: @demiplieconfeccoes<br>
+  📱 WhatsApp: (00) 00000-0000<br><br>
+  Criando com paixão, vestindo com elegância.
 </div>
-```
+
+</body>
+</html>
