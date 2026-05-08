@@ -1,8 +1,3 @@
----
-layout: null
-title: Demi Plié Confecções
----
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -21,16 +16,16 @@ body {
 
 h1, h2 {
   color: #d63384;
-  margin: 0;
 }
 
 .hero {
   text-align: center;
-  padding: 80px 20px 50px 20px;
+  padding: 80px 20px 50px;
 }
 
 .hero h1 {
   font-size: 3em;
+  margin: 0;
 }
 
 .hero p {
@@ -86,13 +81,7 @@ h1, h2 {
   background-color: #e83e8c;
   color: white;
   border-radius: 30px;
-  font-weight: 500;
   text-decoration: none;
-  transition: opacity 0.2s;
-}
-
-.cta a:hover {
-  opacity: 0.9;
 }
 
 .footer {
@@ -132,37 +121,35 @@ h1, h2 {
   <h2>👗 Portfólio</h2>
 
   <div class="grid">
-
     <div class="card">
-      <img src="/images/look1.jpg" alt="Vestido elegante">
+      <img src="/images/look1.jpg">
       <p>Vestido elegante sob medida</p>
     </div>
 
     <div class="card">
-      <img src="/images/look2.jpg" alt="Conjunto feminino">
+      <img src="/images/look2.jpg">
       <p>Conjunto feminino moderno</p>
     </div>
 
     <div class="card">
-      <img src="/images/look3.jpg" alt="Peça artesanal">
+      <img src="/images/look3.jpg">
       <p>Peça exclusiva artesanal</p>
     </div>
 
     <div class="card">
-      <img src="/images/look4.jpg" alt="Moda festa">
+      <img src="/images/look4.jpg">
       <p>Moda para ocasiões especiais</p>
     </div>
 
     <div class="card">
-      <img src="/images/look5.jpg" alt="Moda leve">
+      <img src="/images/look5.jpg">
       <p>Estilo leve e contemporâneo</p>
     </div>
 
     <div class="card">
-      <img src="/images/look6.jpg" alt="Design sofisticado">
+      <img src="/images/look6.jpg">
       <p>Design sofisticado</p>
     </div>
-
   </div>
 
   <div class="cta">
